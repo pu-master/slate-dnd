@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #282c34;
+  color: white;
+}
+
+.slate-container {
+  flex: 1;
+  width: 720px;
+  padding: 16px 16px 16px 36px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.demo-instructions {
+  margin-bottom: 8px;
+  color: gray;
+}
+
+.paragraph {
+  position: relative;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.drag-handle {
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 12px;
+  height: 100%;
+  background-color: gray;
+  border-radius: 3px;
+  cursor: move;
+}
